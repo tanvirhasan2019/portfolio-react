@@ -28,7 +28,7 @@ export default function BlogApps() {
             </div>
 
             <div className="project__buttons-container">
-                <a href="https://just-a-pair.web.app/" target="_blank" className="project__header__btn">Live Demo</a>
+                <a href="https://blog-web-apps-client.herokuapp.com/" target="_blank" className="project__header__btn">Live Demo</a>
                 <a href="https://github.com/tanvirhasan2019/BlogApplication" target="_blank" className="project__header__btn">GitHub</a>
             </div>
             </header>

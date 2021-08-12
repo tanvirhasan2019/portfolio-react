@@ -28,7 +28,7 @@ export default function PortfolioApps() {
             </div>
 
             <div className="project__buttons-container">
-                <a href="https://just-a-pair.web.app/" target="_blank" className="project__header__btn">Live Demo</a>
+                <a href="https://tanvirhasantanshen.herokuapp.com/" target="_blank" className="project__header__btn">Live Demo</a>
                 <a href="https://github.com/tanvirhasan2019/portfolio-react" target="_blank" className="project__header__btn">GitHub</a>
             </div>
             </header>
