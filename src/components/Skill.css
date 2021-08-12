@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap'); /* bold bold */
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap'); /* bold */
+
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #3f51b5;
+}
+.timeline-item-dateinner {
+    background: #3f9c63 !important;
+   
+}
+
+
+.timeline-item-dateinner-college {
+    background: #e86971;
+    color: #fff;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 10px;
+    border-right-color: transparent;
+    -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    height: 50px;
+    width: 100%;
+    display: block;
+    line-height: 52px;
+    text-indent: 15px;
+}
+
+
+.timeline-item-dateinner-school {
+    background: #3f51b5;
+    color: #fff;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    margin-right: 10px;
+    border-right-color: transparent;
+    -webkit-clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    height: 50px;
+    width: 100%;
+    display: block;
+    line-height: 52px;
+    text-indent: 15px;
+}
+
+
+.education-varsity{
+    padding: 10px;
+}
+
+/* varsity */
+.varsity-name{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #3f9c63;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.varsity-degree{
+    margin-top: 10px !important;
+    font-size: 1rem;
+    text-align: center;
+    color: #3f9c63;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.varsity-location{
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #3f9c63;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.varsity-logo{
+    margin-top: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+/* college */
+
+.college-name{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #e53935;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.college-degree{
+    margin-top: 10px !important;
+    font-size: 1rem;
+    text-align: center;
+    color: #e53935;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.college-location{
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #e53935;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.college-logo{
+    margin-top: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+/* school */
+
+
+
+.school-name{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #3f51b5;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.school-degree{
+    margin-top: 10px !important;
+    font-size: 1rem;
+    text-align: center;
+    color: #3f51b5;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.school-location{
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #3f51b5;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+.school-logo{
+    margin-top: 10px;
+    width: 100px;
+    height: 70px;
+}
+
+
+/* skill */
+
+.vertical-timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 18px;
+    height: 100%;
+    width: 4px;
+    background: #3f51b5 !important;
+}
+.vertical-timeline-element-date{
+    font-size: 2rem !important;
+    color: red !important;
+    font-family: 'Staatliches', cursive !important;
+    padding: 0px !important;
+}
+.technology-name{
+    font-size: 1.5rem !important;
+    font-family: 'Fjalla One', sans-serif !important;
+    color: #1d1d1c !important;
+}
+.MuiChip-label{
+    font-size: 1rem !important;
+    font-family: 'Fjalla One', sans-serif !important;
+}
+
+.skill-main{
+    background-color:white !important;
+}
+
+.vertical-timeline-element-content-arrow{
+    border-right: 7px solid rgb(112, 120, 169) !important;
+}
+
+@media only screen and (max-width: 800px) {
+    .vertical-timeline-element-date{
+        font-size: 2rem !important;
+        color: #f50057 !important;
+        font-family: 'Staatliches', cursive !important;
+        padding-top: 10px !important;
+    }
+  }
