@@ -13,12 +13,14 @@ import Kidslearning from './pages/projects/Kidslearning';
 import Skill from './components/SkillTimeline';
 import Education from './components/EducationTimeline';
 import WorkExperience from './pages/projects/ProjectSource';
-
-
+import MercedesBenz from './pages/projects/MercedesBenz';
+import Header from './components/header/Header';
 function App() {
   return (
     <BrowserRouter>
+             <Header/>
             <Route path="/" exact component={Home} />
+            <Route path="/mercedes-benz-project" exact component={MercedesBenz} />
             <Route path="/ecommerce-project" exact component={EcommerceProject} />
             <Route path="/blog-project" exact component={BlogApps} />
             <Route path="/portfolio-project" exact component={PortfolioApps} />

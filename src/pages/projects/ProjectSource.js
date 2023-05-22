@@ -8,7 +8,7 @@ import Kids_learning from '../projects/ProjectImages/Kids_learning.png';
 import hospital from '../projects/ProjectImages/hospital.png';
 import blogCoverPic from '../projects/ProjectImages/blogCoverPic.png';
 import Portfolio from '../projects/ProjectImages/portfolio.png';
-
+import MercedesBenz from '../projects/ProjectImages/mercedesBenz.png';
 
 import './projects.css';
 
@@ -21,7 +21,7 @@ export default function ProjectSource() {
        <div style={{padding:'0px'}} className="container">
             <section id="portfolio" className="portfolio">
                 <h1 style={{color:'#382266'}} className="portfolio__title d-flex justify-content-center">
-                    Personal Application<span className="portfolio__title__dot"></span>
+                    Personal Projects<span className="portfolio__title__dot"></span>
                 </h1>
                 <h3 className="portfolio__description">
                     Examples of my projects build with HTML, CSS, Bootstrap, JavaScript, React.js, Express.js, Java, MS SQL, MongoDB, c#, Asp.Net Core.My portfolio includes
@@ -34,6 +34,19 @@ export default function ProjectSource() {
                     <button className="portfolio__nav__btn" data-btn-name="apps-btn">Android Apps</button>
                 </div>
                 <div style={{paddingBottom:'5px'}} className="portfolio__items-container">
+
+                   <div onClick={()=>history.push('/mercedes-benz-project')} className="portfolio__item" >
+                        
+                        <img src={MercedesBenz} className="portfolio__item__thumbnail" alt="image hover effects"/>
+                        <h2 className="portfolio__item__info">Mercedes Benz</h2>
+                        <div className="portfolio__item__hover">
+                        {/* <h2 className="portfolio__item__hover__title">Mercedes Benz Application<span
+                            className="portfolio__title__dot title__dot--white"></span>
+                        </h2> */}
+                        <p className="portfolio__item__hover__description">Technology used React.js, Node.js, Express.js, MongoDB</p>
+                        </div>
+                
+                    </div>
 
                     <div onClick={()=>history.push('/blog-project')} className="portfolio__item" >
                         

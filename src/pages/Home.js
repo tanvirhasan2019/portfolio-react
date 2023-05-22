@@ -20,12 +20,9 @@ import Paper from '@material-ui/core/Paper';
 import Footer from '../pages/footer/Footer';
 import FutureWork from './Futureplan/FutureWork';
 import MyGallery from '../components/MyGallery';
-import { useHistory } from 'react-router-dom';
-
 export default function Home() {
     return (
         <div>
-             <Header/>
              <div className="container-fluid">
                 <div style={{margin:'15px 15px'}} className="row">
 
