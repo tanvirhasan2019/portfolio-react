@@ -179,7 +179,12 @@
 .vertical-timeline-element-content-arrow{
     border-right: 7px solid rgb(112, 120, 169) !important;
 }
-
+.work-exp-ul{
+    list-style-type: circle;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 @media only screen and (max-width: 800px) {
     .vertical-timeline-element-date{
         font-size: 2rem !important;

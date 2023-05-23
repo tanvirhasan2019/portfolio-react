@@ -69,7 +69,7 @@ export default function EcommerceProject() {
                 <span className="project__flex__skill project__flex__skill--pink">Typescript</span>
                 <span className="project__flex__skill project__flex__skill--pink">Bootstrap</span>
                 <span className="project__flex__skill project__flex__skill--pink">Razor Pages</span>
-                <br/><span className="project__flex__skill">Frontent</span><br/>
+                <br/><span className="project__flex__skill">Backend</span><br/>
                 <span className="project__flex__skill project__flex__skill--pink">c#</span>
                 <span className="project__flex__skill project__flex__skill--pink">Asp.Net Core</span>
                 <span className="project__flex__skill project__flex__skill--pink">MS SQL</span>
@@ -84,7 +84,6 @@ export default function EcommerceProject() {
         <a onClick={()=> history.push('/portfolio-project')} href="" className="project__main__btn project__main__btn--next">Next<span
             className="project__main__btn__arrow">&rarr;</span></a>
 
-        
         </main>
     
     </div>

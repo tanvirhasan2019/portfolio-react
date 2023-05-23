@@ -8,7 +8,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import EmailIcon from '@material-ui/icons/Email';
 import Avatar from '@material-ui/core/Avatar';
-import Mypic from '../../images/mypic.jpg';
+import Mypic from '../../images/mypic.png';
 
 
 export default function Footer() {

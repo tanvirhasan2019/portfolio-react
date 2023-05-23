@@ -76,7 +76,7 @@ export default function FutureWork() {
         <div style={{padding:'0px'}} className="container">
             <section id="portfolio" className="portfolio">
                 <h1 style={{color:'#382266'}} className="portfolio__title d-flex justify-content-center">
-                    PLANING<span className="portfolio__title__dot"></span>
+                    LEARNING<span className="portfolio__title__dot"></span>
                 </h1>
               
                 <div className="portfolio__nav__container">

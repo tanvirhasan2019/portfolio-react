@@ -72,6 +72,9 @@ export default function BlogApps() {
                 </p>
                 </div>
             </div>
+             <a onClick={() => history.push('/mercedes-benz-project')} href="" class="project__main__btn project__main__btn--previous"><span
+                        className="project__main__btn__arrow">&larr;</span>Previous</a>
+
             <a onClick={()=> history.push('/ecommerce-project')} href="" className="project__main__btn project__main__btn--next">Next<span
                 className="project__main__btn__arrow">&rarr;</span></a>
             </main>

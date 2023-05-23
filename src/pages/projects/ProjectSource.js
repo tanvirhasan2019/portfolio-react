@@ -24,8 +24,7 @@ export default function ProjectSource() {
                     Personal Projects<span className="portfolio__title__dot"></span>
                 </h1>
                 <h3 className="portfolio__description">
-                    Examples of my projects build with HTML, CSS, Bootstrap, JavaScript, React.js, Express.js, Java, MS SQL, MongoDB, c#, Asp.Net Core.My portfolio includes
-                    Web Applications, Desktop Applications, Android Application an insight into my recent accomplishments.
+                With a deep passion for learning and exploring new technologies, I have embarked on diverse personal projects spanning web applications, desktop applications, and Android applications. Each project showcases my proficiency in implementing cutting-edge technologies, and you can experience them firsthand through live URLs or videos. These projects demonstrate my ability to adapt to different platforms and my commitment to staying at the forefront of technological advancements, translating ideas into functional and visually impressive applications.
                 </h3>
                 <div className="portfolio__nav__container">
                     <button className="portfolio__nav__btn" data-btn-name="all-btn">All</button>
