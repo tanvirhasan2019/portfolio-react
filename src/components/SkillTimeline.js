@@ -16,7 +16,7 @@ import Chip from '@material-ui/core/Chip';
 import Rating from '@material-ui/lab/Rating';
 export default function SkillTimeline() {
   return (
-    <div className="container skill-main">
+    <div style={{paddingBottom: '20px'}} className="container skill-main">
       <section id="portfolio" className="portfolio">
         <h1 style={{ color: '#382266' }} className="portfolio__title d-flex justify-content-center">
           Skills<span className="portfolio__title__dot"></span>

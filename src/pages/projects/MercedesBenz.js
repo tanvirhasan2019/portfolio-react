@@ -8,7 +8,6 @@ export default function MercedesBenz() {
     return (
         <div className="source-body">
             <div className="project__container">
-
                 <header className="project__header">
                     <h2 className="project__title project__title--white">Mercedes Benz<span
                         className="contact__title__dot title__dot--white"></span></h2>
@@ -26,6 +25,7 @@ export default function MercedesBenz() {
 
                     </div>
                     <div className="project__buttons-container">
+                        <a href="https://mercedes-benz-dhaka.netlify.app/" target="_blank" className="project__header__btn">Live Demo</a>
                         <a href="https://github.com/tanvirhasan2019/marcedes-benz" target="_blank" className="project__header__btn">GitHub</a>
                     </div>
                 </header>

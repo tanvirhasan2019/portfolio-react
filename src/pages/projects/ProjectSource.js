@@ -9,22 +9,20 @@ import hospital from '../projects/ProjectImages/hospital.png';
 import blogCoverPic from '../projects/ProjectImages/blogCoverPic.png';
 import Portfolio from '../projects/ProjectImages/portfolio.png';
 import MercedesBenz from '../projects/ProjectImages/mercedesBenz.png';
-
+import WorkExperienceTimeline from '../../components/WorkExperienceTimeline';
 import './projects.css';
-
-
 export default function ProjectSource() {
     const history = useHistory();
-    
+    const location = window.location.pathname
     return (
-       
-       <div style={{padding:'0px'}} className="container">
+        <div style={{ padding: '0px' }} className="container">
+            {location === '/my-projects' && <WorkExperienceTimeline />}
             <section id="portfolio" className="portfolio">
-                <h1 style={{color:'#382266'}} className="portfolio__title d-flex justify-content-center">
+                <h1 style={{ color: '#382266' }} className="portfolio__title d-flex justify-content-center">
                     Personal Projects<span className="portfolio__title__dot"></span>
                 </h1>
                 <h3 className="portfolio__description">
-                With a deep passion for learning and exploring new technologies, I have embarked on diverse personal projects spanning web applications, desktop applications, and Android applications. Each project showcases my proficiency in implementing cutting-edge technologies, and you can experience them firsthand through live URLs or videos. These projects demonstrate my ability to adapt to different platforms and my commitment to staying at the forefront of technological advancements, translating ideas into functional and visually impressive applications.
+                    With a deep passion for learning and exploring new technologies, I have embarked on diverse personal projects spanning web applications, desktop applications, and Android applications. Each project showcases my proficiency in implementing cutting-edge technologies, and you can experience them firsthand through live URLs or videos. These projects demonstrate my ability to adapt to different platforms and my commitment to staying at the forefront of technological advancements, translating ideas into functional and visually impressive applications.
                 </h3>
                 <div className="portfolio__nav__container">
                     <button className="portfolio__nav__btn" data-btn-name="all-btn">All</button>
@@ -32,126 +30,93 @@ export default function ProjectSource() {
                     <button className="portfolio__nav__btn" data-btn-name="illustrations-btn">Desktop Apps</button>
                     <button className="portfolio__nav__btn" data-btn-name="apps-btn">Android Apps</button>
                 </div>
-                <div style={{paddingBottom:'5px'}} className="portfolio__items-container">
-
-                   <div onClick={()=>history.push('/mercedes-benz-project')} className="portfolio__item" >
-                        
-                        <img src={MercedesBenz} className="portfolio__item__thumbnail" alt="image hover effects"/>
+                <div style={{ paddingBottom: '5px' }} className="portfolio__items-container">
+                    <div onClick={() => history.push('/mercedes-benz-project')} className="portfolio__item" >
+                        <img src={MercedesBenz} className="portfolio__item__thumbnail" alt="image hover effects" />
                         <h2 className="portfolio__item__info">Mercedes Benz</h2>
                         <div className="portfolio__item__hover">
-                        {/* <h2 className="portfolio__item__hover__title">Mercedes Benz Application<span
+                            {/* <h2 className="portfolio__item__hover__title">Mercedes Benz Application<span
                             className="portfolio__title__dot title__dot--white"></span>
                         </h2> */}
-                        <p className="portfolio__item__hover__description">Technology used React.js, Node.js, Express.js, MongoDB</p>
+                            <p className="portfolio__item__hover__description">Technology used React.js, Node.js, Express.js, MongoDB</p>
                         </div>
-                
                     </div>
-
-                    <div onClick={()=>history.push('/blog-project')} className="portfolio__item" >
-                        
-                        <img src={blogCoverPic} className="portfolio__item__thumbnail" alt="image hover effects"/>
+                    <div onClick={() => history.push('/blog-project')} className="portfolio__item" >
+                        <img src={blogCoverPic} className="portfolio__item__thumbnail" alt="image hover effects" />
                         <h2 className="portfolio__item__info">Blog</h2>
                         <div className="portfolio__item__hover">
-                        <h2 className="portfolio__item__hover__title">Blog Application<span
-                            className="portfolio__title__dot title__dot--white"></span>
-                        </h2>
-                        <p className="portfolio__item__hover__description">Blog Apps made with MERN stack</p>
+                            <h2 className="portfolio__item__hover__title">Blog Application<span
+                                className="portfolio__title__dot title__dot--white"></span>
+                            </h2>
+                            <p className="portfolio__item__hover__description">Blog Apps made with MERN stack</p>
                         </div>
-                
                     </div>
-
-                    <div onClick={()=>history.push('/ecommerce-project')} className="portfolio__item" >
-                    
-                        <img src={Ecommerce} className="portfolio__item__thumbnail" alt="image hover effects"/>
+                    <div onClick={() => history.push('/ecommerce-project')} className="portfolio__item" >
+                        <img src={Ecommerce} className="portfolio__item__thumbnail" alt="image hover effects" />
                         <h2 className="portfolio__item__info">Ecommerce Application</h2>
                         <div className="portfolio__item__hover">
-                        <h2 className="portfolio__item__hover__title">Ecommerce Application<span
-                            className="portfolio__title__dot title__dot--white"></span>
-                        </h2>
-                        <p className="portfolio__item__hover__description">Online store made with React.js and .Net core</p>
+                            <h2 className="portfolio__item__hover__title">Ecommerce Application<span
+                                className="portfolio__title__dot title__dot--white"></span>
+                            </h2>
+                            <p className="portfolio__item__hover__description">Online store made with React.js and .Net core</p>
                         </div>
-                   
                     </div>
-                    
-                    <div onClick={()=>history.push('/portfolio-project')} className="portfolio__item" data-name="website">
-                    
-                        <img src={Portfolio} className="portfolio__item__thumbnail" alt="image hover effects"/>
+                    <div onClick={() => history.push('/portfolio-project')} className="portfolio__item" data-name="website">
+                        <img src={Portfolio} className="portfolio__item__thumbnail" alt="image hover effects" />
                         <h2 className="portfolio__item__info">Portfolio</h2>
                         <div className="portfolio__item__hover">
-                        <h2 className="portfolio__item__hover__title">Personal Site<span
-                            className="portfolio__title__dot title__dot--white"></span></h2>
-                        <p className="portfolio__item__hover__description">Personal site made with React.js </p>
+                            <h2 className="portfolio__item__hover__title">Personal Site<span
+                                className="portfolio__title__dot title__dot--white"></span></h2>
+                            <p className="portfolio__item__hover__description">Personal site made with React.js </p>
                         </div>
-                   
                     </div>
-
-                    <div onClick={()=>history.push('/virtual-doctor-project')} className="portfolio__item">
-                    
-                        <img src={virtual_medic} className="portfolio__item__thumbnail" alt="image hover effects"/>
+                    <div onClick={() => history.push('/virtual-doctor-project')} className="portfolio__item">
+                        <img src={virtual_medic} className="portfolio__item__thumbnail" alt="image hover effects" />
                         <h2 className="portfolio__item__info">Virtual Doctor</h2>
                         <div className="portfolio__item__hover">
-                        <h2 className="portfolio__item__hover__title">Virtual Doctor<span
-                            className="portfolio__title__dot title__dot--white"></span></h2>
-                        <p className="portfolio__item__hover__description">Virtual doctor made with React.js , .Net core , Machine learning</p>
+                            <h2 className="portfolio__item__hover__title">Virtual Doctor<span
+                                className="portfolio__title__dot title__dot--white"></span></h2>
+                            <p className="portfolio__item__hover__description">Virtual doctor made with React.js , .Net core , Machine learning</p>
                         </div>
-                   
                     </div>
-
-
-                    <div onClick={()=>history.push('/shopmanagement-project')} className="portfolio__item">
-                    
-                        <img src={shop_management} className="portfolio__item__thumbnail" alt="image hover effects"/>
+                    <div onClick={() => history.push('/shopmanagement-project')} className="portfolio__item">
+                        <img src={shop_management} className="portfolio__item__thumbnail" alt="image hover effects" />
                         <h2 className="portfolio__item__info">Shop Management</h2>
                         <div className="portfolio__item__hover">
                             <h2 className="portfolio__item__hover__title">Shop Management<span
                                 className="portfolio__title__dot title__dot--white"></span></h2>
                             <p className="portfolio__item__hover__description">Shop Management made with Java and MS SQL</p>
                         </div>
-                
-                     </div>
-
-
-                     <div onClick={()=>history.push('/microfinance-project')} className="portfolio__item">
-                    
-                    <img src={microfinance} className="portfolio__item__thumbnail" alt="image hover effects"/>
-                    <h2 className="portfolio__item__info">Microfinance Management</h2>
-                    <div className="portfolio__item__hover">
-                        <h2 className="portfolio__item__hover__title">Microfinance Management<span
-                            className="portfolio__title__dot title__dot--white"></span></h2>
-                        <p className="portfolio__item__hover__description">Microfinance Management made with Java and MS SQL</p>
                     </div>
-            
-                 </div>
-
-
-
-                 <div onClick={()=>history.push('/kids-learning-project')} className="portfolio__item">
-                    
-                    <img src={Kids_learning} className="portfolio__item__thumbnail" alt="image hover effects"/>
-                    <h2 className="portfolio__item__info">kids Learning</h2>
-                    <div className="portfolio__item__hover">
-                        <h2 className="portfolio__item__hover__title">Kids Learning<span
-                            className="portfolio__title__dot title__dot--white"></span></h2>
-                        <p className="portfolio__item__hover__description">Kids Learning App made with Java , SQLite and Android Studio</p>
+                    <div onClick={() => history.push('/microfinance-project')} className="portfolio__item">
+                        <img src={microfinance} className="portfolio__item__thumbnail" alt="image hover effects" />
+                        <h2 className="portfolio__item__info">Microfinance Management</h2>
+                        <div className="portfolio__item__hover">
+                            <h2 className="portfolio__item__hover__title">Microfinance Management<span
+                                className="portfolio__title__dot title__dot--white"></span></h2>
+                            <p className="portfolio__item__hover__description">Microfinance Management made with Java and MS SQL</p>
+                        </div>
                     </div>
-            
-                 </div>
-
-
-                 <div onClick={()=>history.push('/appointment-system-project')} className="portfolio__item">
-                    
-                    <img  src={hospital} className="portfolio__item__thumbnail" alt="image hover effects"/>
-                    <h2 className="portfolio__item__info">Doctor Appoinment</h2>
-                    <div className="portfolio__item__hover">
-                        <h2 className="portfolio__item__hover__title">Doctor Appoinment<span
-                            className="portfolio__title__dot title__dot--white"></span></h2>
-                        <p className="portfolio__item__hover__description">Doctor Appoinment App made with Java , SQLite and Android Studio</p>
+                    <div onClick={() => history.push('/kids-learning-project')} className="portfolio__item">
+                        <img src={Kids_learning} className="portfolio__item__thumbnail" alt="image hover effects" />
+                        <h2 className="portfolio__item__info">kids Learning</h2>
+                        <div className="portfolio__item__hover">
+                            <h2 className="portfolio__item__hover__title">Kids Learning<span
+                                className="portfolio__title__dot title__dot--white"></span></h2>
+                            <p className="portfolio__item__hover__description">Kids Learning App made with Java , SQLite and Android Studio</p>
+                        </div>
                     </div>
-            
-                 </div>
-       
-            </div>
+                    <div onClick={() => history.push('/appointment-system-project')} className="portfolio__item">
+                        <img src={hospital} className="portfolio__item__thumbnail" alt="image hover effects" />
+                        <h2 className="portfolio__item__info">Doctor Appoinment</h2>
+                        <div className="portfolio__item__hover">
+                            <h2 className="portfolio__item__hover__title">Doctor Appoinment<span
+                                className="portfolio__title__dot title__dot--white"></span></h2>
+                            <p className="portfolio__item__hover__description">Doctor Appoinment App made with Java , SQLite and Android Studio</p>
+                        </div>
+                    </div>
+                </div>
             </section>
-       </div>   
+        </div>
     )
 }

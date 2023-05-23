@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css';
-import Mypic from '../images/mypic.png';
+import Mypic from '../images/myPicBgMatch.png';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Avatar from '@material-ui/core/Avatar';
@@ -107,7 +107,8 @@ export default function Home() {
                   </div>
                </div>
                <div className="col-md-6 d-flex justify-content-center align-items-center">
-                  <Avatar alt="tanshen" src={Mypic} style={{ width: '50%', height: '70%' }} className="my-avatar" />
+                  <img style={{ width: '50%', height: '70%', borderRadius: '50%' }} src={Mypic} alt="my images"/>
+                  {/* <Avatar alt="tanshen" src={Mypic} style={{ width: '50%', height: '70%' }} className="my-avatar" /> */}
                </div>
             </div>
             <div style={{ margin: '30px' }} className="row">
