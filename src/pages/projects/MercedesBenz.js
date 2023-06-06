@@ -54,7 +54,7 @@ export default function MercedesBenz() {
                             <p className="project__flex__text"></p> */}
                             <h2 className="project__flex__title">Skills</h2>
                             <p className="project__flex__text">
-                                <span className="project__flex__skill">Frontent</span><br />
+                                <span className="project__flex__skill">Frontend</span><br />
                                 <span className="project__flex__skill project__flex__skill--pink">Html</span>
                                 <span className="project__flex__skill project__flex__skill--pink">Css</span>
                                 <span className="project__flex__skill project__flex__skill--pink">JavaScript</span>
