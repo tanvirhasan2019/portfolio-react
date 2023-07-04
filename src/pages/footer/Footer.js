@@ -35,7 +35,7 @@ export default function Footer() {
                                   <a style={{color:'white'}} href="https://github.com/tanvirhasan2019"> <GitHubIcon fontSize="large" /> </a>
                                 </li>
                                 <li className="footer-social-icon">
-                                 <a style={{color:'white'}} href="https://www.linkedin.com/in/tanvir-tanshen-501042159?fbclid=IwAR1fbGLMssgAQc01d3hz6qJ2xP0GeHBgjb3Yz6hFsrNEF8WLTlTexqo4rDw"> <LinkedInIcon fontSize="large" /> </a>
+                                 <a style={{color:'white'}} href="https://www.linkedin.com/in/tanvirhasantanshen/"> <LinkedInIcon fontSize="large" /> </a>
                                 </li>
                                 <li className="footer-social-icon">
                                  <a style={{color:'white'}} href="https://www.facebook.com/tanvirhasan.tanshen.7/"> <FacebookIcon fontSize="large" /> </a>

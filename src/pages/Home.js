@@ -65,7 +65,7 @@ export default function Home() {
                                  </div>
 
                                  <div className="col-xm-12 col-sm-4 col-md-3">
-                                    <a href="https://www.linkedin.com/in/tanvir-tanshen-501042159?fbclid=IwAR1fbGLMssgAQc01d3hz6qJ2xP0GeHBgjb3Yz6hFsrNEF8WLTlTexqo4rDw" >
+                                    <a href="https://www.linkedin.com/in/tanvirhasantanshen/">
                                        <PrimeButton style={{ height: '40px' }} className="twitter p-p-0">
                                           <span style={{ backgroundColor: '#2196f3', height: '100%', width: '32px' }}>
                                              <LinkedInIcon fontSize="small" style={{ marginTop: '10px' }} />
